@@ -1,0 +1,82 @@
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>form </title>
+
+</head>
+
+<body>
+    <h1 id="title"><u> MEMBERSHIP SATISFACTION SURVEY</u></h1>
+    <P id="description">Surveys are research methods used for collecting data from a predefined group of respondents to
+        gain information and insights into various topics of interest. They can have multiple purposes, and researchers
+        can conduct them in many ways depending on the methodology chosen and the study's goal.
+    </P>
+    <h2><i><u>PERSONAL DETAILS:</u></i></h2>
+    <form action="" id="survey-form">
+      <div>  <label id="name-label">Name</label>
+        <input type="text" id="name" required placeholder="your name"><br>
+        <label id="email-label">Email</label>
+        <input type="email" id="email" required placeholder="type your email here"><br>
+        <label id="number-label">Contact No.</label>
+        <input type="number" name="number" id="number" required min="7" max="11"
+            placeholder="your correct contact no."><br></div>
+            <ul>
+        
+            <h2><i><u>MEMBERSHIP:</u></i></h2>
+        <li>
+            <p>How long have you been the member of this company?</p></li>
+        <select name="" id="dropdown">
+            <option value="2 years">2 years</option>
+            <option value="3 years">3 years</option>
+            <option value="5 years">5 years</option>
+        
+    </ul>
+   
+</select>
+<h2><u><i>FACILITIES:</i></u></h2>
+        <ul>
+            <li>
+                <p>Which pannel you were given?</p>
+                <input class="radio" type="radio" name="health" value="health">Health
+                <input class="radio" type="radio" name="Education" value="edu">Education
+            </li>
+            <li>
+                <p>how many half days were acceptable?</p>
+                <input class="radio" type="radio" name="one" value="one">one
+                <input class="radio"type="radio" name="two" value="two">two
+            </li>
+            <li>
+                <p>From where you are working?</p>
+                <input class="radio" type="radio" name="home" value="home">Home
+<input class="radio" type="radio" name="office" value="office">office
+            </li>
+            <li>
+                <p>Are you provided with incentives?</p>
+                <input class="radio" type="radio" name="yes" value="yes">yes
+<input class="radio" type="radio" name="no" value="no">no
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <p>Was there a healthy working enironment?</p>
+                <input type="checkbox" name="work" id="no" value="yes">Yes
+            <input type="checkbox" name="work" id="no" value="yes"> No </li>
+               <li> <p>Was your salary justified?</p>
+                <input type="checkbox" name="salary" id="no" value="yes">yes
+                <input type="checkbox" name="salary" id="No" value="yes">No
+            </li>
+        </ul>
+        <h2><i><u>EXPERIENCE:</u></i></h2>
+        <p>Write about your experience in this organisation.</p>
+        <textarea name="comments" id="" cols="30" rows="6"></textarea><br><br>
+        <button id="submit">SUBMIT</button>
+        </button>
+    </form>
+</body>
+
+</html>
